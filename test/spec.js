@@ -1,5 +1,9 @@
 describe('Problem set 4', function() {
-  it('should do something', function() {
-    expect(true).toEqual(false);
-  });
+	describe("Palindrome", function() {
+	  it('should return true if input string is a Palindrome', function() {
+	    expect(palindrome('racecar')).toEqual(true);
+	    expect(palindrome('raceca')).toEqual(false);
+	  });
+		
+	});
 });
