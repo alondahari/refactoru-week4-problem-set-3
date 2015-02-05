@@ -1,4 +1,4 @@
-describe('Problem set 4', function() {
+describe('Problem set 3', function() {
 	describe("Palindrome", function() {
 	  it('should return true if input string is a Palindrome', function() {
 	    expect(palindrome('racecar')).toEqual(true);
@@ -12,5 +12,12 @@ describe('Problem set 4', function() {
 	  });
 		
 	});
+	describe("caesarCipher", function() {
+	  it('should perform a caesar cipher', function() {
+	    expect(caesarCipher("Caesar Cipher.", 2)).toEqual("Ecguct Ekrjgt.");
+	  });
+		
+	});
+
 
 });
